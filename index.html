@@ -32,14 +32,21 @@
 </style>
 
 <body>
-    <nav class="navbar">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">=</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  </nav>
+
       
   <header class="header">
     <div class="container">
@@ -181,5 +188,12 @@
     📧 Contact Me
   </a>
 </div>
+<script>
+  function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('active');
+  }
+</script>
+
 </body>
 </html>
