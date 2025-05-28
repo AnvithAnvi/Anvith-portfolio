@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishna Anvith | Data Scientist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<style>
+  .floating-contact {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #2563eb;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    z-index: 9999;
+    transition: background 0.3s ease;
+  }
+  .floating-contact:hover {
+    background: #1e40af;
+  }
+  .floating-contact a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+</style>
+
+<body>
+  <nav class="navbar">
+  <div class="nav-container">
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  </nav>
+
+
+      
+  <header class="header">
+    <div class="container">
+      <h1>Krishna Anvith Vattikuti</h1>
+      <p class="tagline"> Data Scientist · AI/ML Enthusiast </p>
+      <p class="links">
+        <a href="mailto:vattikutianvith@gmail.com">vattikutianvith@gmail.com</a>
+        <a href="https://linkedin.com/in/anvithvattikuti" target="_blank">LinkedIn</a>
+        <a href="https://github.com/AnvithAnvi" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am Krishna Anvith V, a passionate and driven Data Science graduate student at NJIT, dedicated to creating intelligent systems and data-driven solutions. My core strengths lie in the intersection of machine learning, full-stack development, and data engineering. With hands-on experience from internships and over 500+ hours of practical training via UpGrad, I have developed the technical and analytical skills needed to drive innovation.
+    </p>
+    <p>
+      I have worked on real-time applications spanning predictive analytics, NLP, and data visualization. My academic background is reinforced by a strong foundation in computer science and statistical theory. I believe in the transformative power of data to improve lives, drive decisions, and enhance productivity. I bring curiosity, dedication, and creativity to every project I undertake.
+    </p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <strong>Master of Science in Data Science</strong><br>
+        New Jersey Institute of Technology, Newark, NJ, USA<br>
+        <em>Aug 2024 – Present</em><br>
+        Coursework: Machine Learning, Deep Learning, Big Data Systems, Data Visualization.<br>
+        Engaged in coursework that equips me with advanced capabilities in AI systems, scalable data platforms, and decision science, while collaborating with industry mentors and cross-functional peers.
+      </li>
+      <br>
+      <li>
+        <strong>Bachelor of Technology in Computer Science Engineering (Specialization in Data Science - AI & ML)</strong><br>
+        Lovely Professional University, Punjab, India<br>
+        <em>Aug 2020 – May 2024</em><br>
+        Graduated with a specialization in Artificial Intelligence and Machine Learning. Led award-winning capstone projects, participated in research activities, and presented findings at university symposiums.
+      </li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>
+        <strong>Neural Networks and Deep Learning – Coursera</strong> <br>
+        <em>April 2025 – Present</em><br>
+        In-depth training on constructing neural networks from scratch and using deep learning frameworks to model complex patterns and solve image/text classification problems.
+      </li>
+      <br>
+      <li>
+        <strong>Python for Data Science – IBM</strong> <br>
+        <em>2024</em><br>
+        Gained strong foundational and practical knowledge of Python’s data manipulation libraries and visualization techniques for real-world analytics and insights.
+      </li>
+      <br>
+      <li>
+        <strong>Machine Learning – Stanford University (Andrew Ng)</strong> <br>
+        <em>2023</em><br>
+        Comprehensive overview of machine learning algorithms, supervised and unsupervised learning, optimization techniques, and model validation frameworks.
+      </li>
+      <br>
+      <li>
+        <strong>Tableau Data Visualization – Udemy</strong> <br>
+        <em>2023</em><br>
+        Built interactive dashboards, explored KPIs, and applied various charting techniques for storytelling with data. Strengthened skills in data analytics for business intelligence.
+      </li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div><strong>Languages:</strong> Python, SQL, C, HTML, CSS, JavaScript</div>
+      <div><strong>ML/AI:</strong> TensorFlow, Keras, PyTorch, Scikit-learn, NLP, CNN, RNN</div>
+      <div><strong>Tools:</strong> Power BI, Tableau, Jupyter, Anaconda, Google Colab</div>
+      <div><strong>Cloud/DevOps:</strong> Apache Spark, Flask, MySQL, AWS, Git, VS Code</div>
+      <div><strong>Other:</strong> Data Wrangling, Feature Engineering, Data Visualization, Model Deployment</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Human Activity Recognition (UpGrad Internship)</h3>
+      <p>Built a hybrid LSTM-CNN model to analyze time-series sensor data and accurately classify six types of human activities. The system achieved a 97.53% accuracy rate, leveraging sequential modeling, dropout layers, and regularization techniques. Integrated mobile compatibility for real-time predictions and user alerts.</p>
+    </div>
+    <div class="project">
+      <h3>Banking DBMS (Flask + MySQL)</h3>
+      <p>Developed a robust, full-stack banking management system to handle customer profiles, transactions, and account maintenance. Used Flask for the backend, integrated MySQL relational databases, and implemented admin access, transaction logs, and normalization techniques to optimize storage and query performance.</p>
+    </div>
+    <div class="project">
+      <h3>UrbanSound8K Classification</h3>
+      <p>Transformed over 8,000 raw audio files into spectrograms to feed into a CNN model for environmental sound classification. Applied audio augmentation methods and reduced model overfitting using dropout layers. Achieved high generalization accuracy on unseen sound classes.</p>
+    </div>
+    <div class="project">
+      <h3>Environmental Health Predictive Analytics</h3>
+      <p>Blended healthcare, environmental, and demographic datasets to create a machine learning pipeline that predicted health impact scores for urban areas. Used Gradient Boosting and Random Forest models to achieve a strong R² of 0.83. Delivered a data dashboard using Tableau to highlight critical zones.</p>
+    </div>
+    <div class="project">
+      <h3>COVID-19 Global Trend Dashboard</h3>
+      <p>Created a dynamic Power BI dashboard to track COVID-19 trends across countries in real time. Enabled users to analyze confirmed cases, recovery rates, and deaths with filtering options and forecasting capabilities. Supported policymaking and public awareness through visual insights.</p>
+    </div>
+    <div class="project">
+      <h3>Sentiment Analysis on Twitter Data</h3>
+      <p>Collected and preprocessed 10K+ tweets using NLTK, followed by fine-tuning a BERT transformer model for sentiment classification. Visualized results using word clouds and confusion matrices. Used domain-specific corpora to improve classification of nuanced tweet sentiments.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Volunteer Experience</h2>
+    <p><strong>National Service Scheme (NSS), India:</strong><br>
+      Actively participated in social outreach programs focusing on hygiene, education, and healthcare. Conducted awareness drives, organized blood donation camps, and led youth engagement events aimed at uplifting rural communities.</p>
+    <p><strong>Mentorship & Peer Tutoring:</strong><br>
+      Dedicated weekly sessions to mentor undergraduates in Python, data structures, and machine learning. Helped peers achieve certifications and build project portfolios by offering structured guidance, mock reviews, and collaborative coding sessions.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li><strong>Email:</strong> <a href="mailto:vattikutianvith@gmail.com">vattikutianvith@gmail.com</a></li>
+      <li><strong>Phone:</strong> <a href="tel:+15513314666">+1 (551) 331 4666</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/anvithvattikuti" target="_blank">linkedin.com/in/anvithvattikuti</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/AnvithAnvi" target="_blank">github.com/AnvithAnvi</a></li>
+    </ul>
+    <a href="resume.pdf" class="resume-button" download>📄 Download Resume</a>
+  </section>
+  
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 Krishna Anvith V · Built with ❤️</p>
+  </div>
+</footer>
+<div class="floating-contact">
+  <a href="mailto:vattikutianvith@gmail.com" title="Email Krishna Anvith V">
+    📧 Contact Me
+  </a>
+</div>
+<script>
+  function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
