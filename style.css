@@ -371,3 +371,9 @@ footer.footer {
     justify-content: flex-start;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
